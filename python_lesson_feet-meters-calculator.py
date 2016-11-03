@@ -9,8 +9,8 @@ top = Tk()
 top.minsize(400, 200)
 top.title('Your Name Here')
 
-raser = Label(top, text='FEET to METERS Conversion Calculator', fg='purple', font='freesansBold, 14')
-raser.pack()
+lbl_one = Label(top, text='FEET to METERS Conversion Calculator', fg='purple', font='freesansBold, 14')
+lbl_one.pack()
 
 q = Button(top, text='Exit', command=quit, fg='red') 
 q.pack(side=BOTTOM, fill=X) 
