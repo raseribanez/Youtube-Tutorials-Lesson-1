@@ -12,7 +12,6 @@ top.configure(bg='DarkGrey') # This is the background color
 lbl_one = Label (top, text='Enter your Value in Feet Below')
 lbl_one.pack()
 
-# Give your button a name
 btn_exit = Button(top, text='Exit', command=quit)
 btn_exit.pack(side=BOTTOM)
 
