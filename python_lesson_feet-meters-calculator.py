@@ -5,7 +5,7 @@
 from Tkinter import *
 
 top = Tk()
-top.minsize(450,350)
+top.minsize(300,300)
 top.title('Feet To Meters Calculator App')
 top.configure(bg='DarkGrey')
 
