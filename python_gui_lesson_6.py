@@ -24,7 +24,6 @@ convert_btn.pack()
 lbl_result = Label(top, relief='ridge', bg='Grey')
 lbl_result.pack(fill=BOTH, expand=1)
 
-# Give your button a name
 btn_exit = Button(top, text='Exit', command=quit)
 btn_exit.pack(side=BOTTOM)
 
