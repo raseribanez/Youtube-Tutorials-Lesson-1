@@ -1,6 +1,6 @@
 #!/usr/bin/env/python
 # Ben Woodfield - Python GUI - Development Lessons
-# Final App - Feet to Meters Calculator
+# Final App - Feet to Meters Calculator - Without Comments
 
 from Tkinter import *
 
@@ -14,7 +14,7 @@ cvt_to = StringVar()
 
 def calculate_feet_meter():
     feet_val = float(cvt_from.get())
-    meters_val = feet_val * 0.3048  # Full wave loop meters calculation
+    meters_val = feet_val * 0.3048  # Feet to Meters Calculation
     cvt_to.set('%s Meters ' % meters_val)
     
 lbl_info = Label(top, text='Enter your value in Feet', fg='blue', bg='DarkGrey', font='freesansbold,16') 
