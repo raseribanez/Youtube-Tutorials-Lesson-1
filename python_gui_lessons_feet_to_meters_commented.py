@@ -6,7 +6,7 @@ from Tkinter import *
 
 # Create the main window for our program
 top = Tk() # Call our main window "top" for convenience later on
-top.minsize(450,350) # 300 x 300 is our x and y sizes
+top.minsize(300,300) # 300 x 300 is our x and y sizes
 top.title('Feet To Meters Calculator App') # This is our title
 top.configure(bg='DarkGrey') # This is the background color
 
